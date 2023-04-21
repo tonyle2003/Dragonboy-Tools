@@ -3,10 +3,19 @@ import pyautogui
 import keyboard
 
 accounts = {
-    "account1": "password1",
-    "account2": "password2",
-    "account3": "password3"
+    # "account1": "password1",
+    # "account2": "password2",
+    # "account3": "password3"
 }
+
+path = ""
+if path != "":
+    data_account = open(path, "r")
+    for line in data_account:
+        username, password = line.split()
+        accounts[username] = password
+    data_account.close()
+print(accounts)
 
 pyautogui.press('win')
 time.sleep(1)
@@ -15,10 +24,10 @@ pyautogui.write('.exe')
 time.sleep(1)
 pyautogui.press('enter')
 print('Đã mở game')
-time.sleep(6)
+time.sleep(8)
 pyautogui.press('enter')
 print('Đã nhấn enter')
-time.sleep(3.5)
+time.sleep(4)
 pyautogui.press('enter')
 print('Đã nhấn enter')
 time.sleep(1)
@@ -49,7 +58,7 @@ for username, password in accounts.items():
     print('Đã nhấn enter')
     pyautogui.press('enter')
     print('Đã nhấn enter')
-    time.sleep(3.5)
+    time.sleep(4)
     pyautogui.press('enter')
     print('Đã nhấn enter')
     pyautogui.press('enter')
