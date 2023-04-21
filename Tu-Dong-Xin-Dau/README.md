@@ -6,4 +6,10 @@
 4. keyborad module
 5. Nhân vật đang ở trong 1 bang hội
 ## Phiên bản ngọc rồng v230
-## Run chương trình là auto xin đậu
+## Hướng dẫn
+- Mở cmd lên di chuyển đến thư mục chứa code
+- Gõ lệnh
+```sh
+python main.py
+```
+## Sau khi enter lệnh chương trình sẽ tự động xin đậu rồi thoát game, lặp lại cho đến khi bạn tắt cmd
