@@ -1,4 +1,4 @@
-# Tool tự động thu hoạch đậu của 1 danh sách account có sẵn
+# Tool tự động thu hoạch đậu của 1 danh sách accounts có sẵn
 ## Yêu cầu
 1. python
 2. pyautogui module
