@@ -3,7 +3,7 @@
 1. python
 2. pyautogui module
 3. keyboard module
-## Phiên bản ngọc rồng v230 đã có sẵn trong máy
+## Phiên bản ngọc rồng v230
 ## Hướng dẫn
 - Cho tất cả các accounts đứng sẵn cạnh cây đậu thần rồi thoát game đợi 10s
 - Mở cmd lên rồi di chuyển đến thư mục chứa code
