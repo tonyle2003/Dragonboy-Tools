@@ -3,4 +3,4 @@
 1. python
 2. pyautogui module
 3. keyboard module
-4. phiên bản ngọc rồng 230
+## Phiên bản ngọc rồng v230 đã có sẵn trong máy
